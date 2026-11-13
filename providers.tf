@@ -19,5 +19,5 @@ provider "azurerm" {
 
   # No registrar el conjunto "core" (~30 servicios); solo los que este lab usa
   resource_provider_registrations = "none"
-  
+
 }
